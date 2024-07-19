@@ -1,0 +1,17 @@
+.header{
+background:#202020;
+height:70px;
+display:flex;
+width: 100%;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.panel{
+    border-color:rgb(238, 238, 238);
+    background-color:rgb(238, 238, 238, 0.2);
+    margin: 200px 650px;
+    padding:20px;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+    }

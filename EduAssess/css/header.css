@@ -1,0 +1,11 @@
+.header{
+    background:#202020;
+    height:70px;
+    }
+
+.panel{
+    border-color:#eee;
+    margin:40px; 
+    padding:20px;
+    font: 15px "Century Gothic", "Times Roman", sans-serif;
+}

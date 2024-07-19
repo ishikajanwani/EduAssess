@@ -1,0 +1,109 @@
+body{
+    margin: 0px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("../image/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vw;
+}
+
+
+header{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.logo{
+    color: orange;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+.header-links{
+    width: 30%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    text-decoration:none;
+    font-size: 20px;
+    color: orange;
+}
+
+.sign-in{
+    padding: 15px 25px;
+    border-radius: 10%;
+    width: 150px;
+    font-size: 20px;
+    background-color: orange;
+    border:none;
+}
+
+.sign-in:hover{
+    cursor: pointer;
+}
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    color:black;
+}
+
+.user-info{
+    width: 40%;
+    background-color: rgb(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+    border-radius: 30px;
+}
+
+.input-md{
+    color: black;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+#gender{
+    width: 415px;
+}
+
+.input-md:focus{
+    border-color: blue;
+    box-shadow: 10px solid black;
+}
+
+.sub{
+    width : 54%;
+    padding : 10px 15px;
+    font-size: 16px;
+    background-color: #00a2ed;
+    border: none;
+    border-radius: 10px;
+    color:white;
+}
+
+.sub:hover{
+    cursor: pointer;
+}
+
